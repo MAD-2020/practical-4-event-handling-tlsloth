@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
             Mole = false;
             tempScore -= 1;
         }
-        if (tempScore % 10 == 0){
+        if (tempScore % 10 == 0 && tempScore != 0){
             nextLevelQuery();
         }
         return Mole;
