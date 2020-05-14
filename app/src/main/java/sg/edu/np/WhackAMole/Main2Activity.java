@@ -41,7 +41,7 @@ public class Main2Activity extends AppCompatActivity {
             belongs here.
             This timer countdown from 10 seconds to 0 seconds and stops after "GO!" is shown.
          */
-        final Toast[] ToastArray = {null};
+
         getReady = new CountDownTimer(10000,1000) {
             @Override
             public void onTick(long l) {
